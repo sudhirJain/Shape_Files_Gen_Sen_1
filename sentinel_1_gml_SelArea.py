@@ -138,35 +138,6 @@ def main():
                 r_flag = True
                 break
 
-
-#-----------------------------------------------------------------------
-#         Debug checks
-#-----------------------------------------------------------------------
-#    print '-----------------------------------------'
-#    print gml_inx_s
-#    print gml_inx_e
-#    print gml_string[gml_inx_s:gml_inx_e]
-#    print kml_inx_s
-#    print kml_inx_e
-#    print first_coord
-#    print kml_string[kml_inx_s:kml_inx_e]
-#    print kml_string
-
-
-#    print LON_MIN_E
-#    print LON_MAX_E
-#    print LAT_MAX_S
-#    print LAT_MIN_S
-#    print kml_rec_coord
-#    print SEL_AREA_LIST
-#    print coord_string
-#    print gml_string
-#    print kml_rec_coord
-#    print r_flag
-#    print '-----------------------------------------'
-#-----------------------------------------------------------------------
-#-----------------------------------------------------------------------
-
     print " Generated gml file ........."
     open(GML_OUTPUT,"w").write(gml_string)
     if r_flag :
