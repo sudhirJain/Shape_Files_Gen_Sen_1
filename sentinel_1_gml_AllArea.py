@@ -68,7 +68,7 @@ def main():
     coord_string = kml_string[kml_inx_s:kml_inx_e]
     first_coord  = coord_string[0:coord_string.index(' ')]
     coord_string = coord_string + ' ' + first_coord
-    coord_string = coord_string
+
 
     gml_string = gml_string[:gml_inx_s] + coord_string + gml_string[gml_inx_e:]
 
